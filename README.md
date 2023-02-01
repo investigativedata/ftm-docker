@@ -10,7 +10,7 @@ built on:
 - [nomenklatura](https://github.com/opensanctions/nomenklatura)
 
 ```docker
-FROM ghcr.io/investigativedata/ftm-docker
+FROM ghcr.io/investigativedata/ftm-docker:main
 
 # build your great container
 ```
