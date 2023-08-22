@@ -4,3 +4,4 @@ RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y python3-icu
 RUN pip install -U pip setuptools
 RUN pip install followthemoney followthemoney-store nomenklatura pyicu
+RUN pip install "git+https://github.com/investigativedata/ftmq#develop"
