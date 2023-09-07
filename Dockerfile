@@ -1,4 +1,4 @@
-FROM python:3-bullseye
+FROM python:3-bookworm
 
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y python3-icu
