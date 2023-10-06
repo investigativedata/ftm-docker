@@ -8,6 +8,7 @@ built on:
 - pyicu support
 - [followthemoney](https://github.com/alephdata/followthemoney)
 - [nomenklatura](https://github.com/opensanctions/nomenklatura)
+- [ftmq](https://github.com/investigativedata/ftmq)
 
 ```docker
 FROM ghcr.io/investigativedata/ftm-docker
