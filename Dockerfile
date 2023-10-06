@@ -1,6 +1,10 @@
 FROM python:3-bookworm
 
 RUN apt-get update && apt-get -y upgrade
-RUN apt-get install -y python3-icu
-RUN pip install -U pip setuptools
-RUN pip install followthemoney followthemoney-store pyicu ftmq
+RUN apt-get install -y pkg-config libicu-dev
+RUN apt-get install -y libleveldb-dev
+
+RUN pip install -q -U pip setuptools
+RUN pip install -q --no-binary=:pyicu: pyicu
+
+RUN pip install -q followthemoney followthemoney-store ftmq
