@@ -1,4 +1,4 @@
-FROM python:3.11-bookworm
+FROM python:3.12-bookworm
 
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y pkg-config libicu-dev
